@@ -20,11 +20,11 @@ AndroidDriver driver;
 		DesiredCapabilities capabilities = new DesiredCapabilities();
 
 
-		capabilities.setCapability("deviceName","OnePlus AC2001");
-		capabilities.setCapability("udid", "41fc4872");
+		capabilities.setCapability("deviceName","V2065");
+		//capabilities.setCapability("udid", "41fc4872");
 		capabilities.setCapability("platformname", "Android");     
 		capabilities.setCapability("automationName","uiautomator2");
-		capabilities.setCapability("platformversion", "12");
+		capabilities.setCapability("platformversion", "10");
 
 		/*The number of seconds the Appium server should wait for clients 
 		 * to send commands before deciding 
@@ -35,7 +35,7 @@ AndroidDriver driver;
 
 		//capabilities.setCapability("app", "completePathOfApkFile");
 		capabilities.setCapability("browserName", "Chrome");
-		capabilities.setCapability("chromedriverExecutable","C:\\Users\\ASUS\\Desktop\\CS_AppiumFramework\\AppiumDemo\\drivers\\chromedriver-win64\\chromedriver.exe");;
+		capabilities.setCapability("chromedriverExecutable","C:\\Users\\bsing\\git\\AppiumFramework\\drivers\\chromedriver122-win64\\chromedriver.exe");;
 
 
 		//	capabilities.setCapability("appPackage","com.oneplus.calculator");
